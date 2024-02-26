@@ -73,7 +73,7 @@ const AddMenuItem: React.FC = () => {
       >
         <Form>
           <div className="form-control font-semibold">
-            <label className="label">
+            <label className="label" htmlFor="recipeName">
               <span>Recipe Name</span>
             </label>
             <Field
@@ -91,7 +91,7 @@ const AddMenuItem: React.FC = () => {
           </div>
           <div className="flex gap-6">
             <div className="form-control font-semibold w-1/2">
-              <label className="label">
+              <label className="label" htmlFor="category">
                 <span>Category</span>
               </label>
               <Field
@@ -99,7 +99,6 @@ const AddMenuItem: React.FC = () => {
                 component="select"
                 id="category"
                 name="category"
-                value=""
               >
                 <option disabled value="">
                   Select a category
@@ -114,7 +113,7 @@ const AddMenuItem: React.FC = () => {
               />
             </div>
             <div className="form-control font-semibold w-1/2">
-              <label className="label">
+              <label className="label" htmlFor="price">
                 <span>Price</span>
               </label>
               <Field
@@ -132,15 +131,16 @@ const AddMenuItem: React.FC = () => {
             </div>
           </div>
           <div className="form-control font-semibold">
-            <label className="label">
+            <label className="label" htmlFor="recipeDetails">
               <span>Recipe Details</span>
             </label>
             <Field
-              className="input input-bordered py-2"
-              component="textarea"
+              className="input-bordered py-2 px-4 rounded-lg"
+              as="textarea"
               id="recipeDetails"
               name="recipeDetails"
               placeholder="Recipe Details"
+              rows={3}
             />
             <ErrorMessage
               className="text-red-500 mt-1 font-semibold"
@@ -149,7 +149,7 @@ const AddMenuItem: React.FC = () => {
             />
           </div>
           <div className="form-control font-semibold">
-            <label className="label">
+            <label className="label" htmlFor="photo">
               <span>Photo</span>
             </label>
             <Field
