@@ -6,6 +6,7 @@ import Root from "./layout/Root/Root";
 import Home from "./Pages/Home/Home";
 import Dashboard from "./layout/Dashboard/Dashboard";
 import AboutUs from "./Pages/AboutUs/AboutUs";
+import AddMenuItem from "./Pages/Dashboard/AddMenuItem/AddMenuItem";
 
 const router = createBrowserRouter([
   {
@@ -25,6 +26,12 @@ const router = createBrowserRouter([
   {
     path: "/dashboard",
     element: <Dashboard></Dashboard>,
+    children: [
+      {
+        path: "/dashboard/addMenuItems",
+        element: <AddMenuItem></AddMenuItem>,
+      },
+    ],
   },
 ]);
 
