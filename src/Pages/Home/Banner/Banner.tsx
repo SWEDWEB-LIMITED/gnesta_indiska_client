@@ -5,7 +5,7 @@ import banner from "../../../assets/home/banner.jpg";
 
 const Banner = () => {
     return (
-        <Carousel autoPlay={true} infiniteLoop={true} interval={5000} >
+        <Carousel autoPlay={true} infiniteLoop={true} interval={5000}>
             <div>
                 <img src={banner} alt="Banner 1" />
             </div>
