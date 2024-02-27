@@ -9,16 +9,16 @@ const Banner = () => {
       className="text-center"
       autoPlay={true}
       infiniteLoop={true}
-      interval={5000}
+      interval={5000} 
     >
       <div>
-        <img src={banner} alt="Banner 1" />
+        <img src={banner} className='max-h-[550px] object-cover'  alt="Banner 1" />
       </div>
       <div>
-        <img src={banner} alt="Banner 2" />
+        <img src={banner} className='max-h-[550px] object-cover' alt="Banner 2" />
       </div>
       <div>
-        <img src={banner} alt="Banner 3" />
+        <img src={banner} className='max-h-[550px] object-cover' alt="Banner 3" />
       </div>
     </Carousel>
   );
