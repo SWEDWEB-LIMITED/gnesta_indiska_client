@@ -17,6 +17,12 @@ const Dashboard = () => {
                 Add Menu Items
               </NavLink>
             </li>
+            <li>
+              <NavLink to="/dashboard/manageMenuItems">
+                <FaUtensils></FaUtensils>
+                Manage Menu Items
+              </NavLink>
+            </li>
           </ul>
         </div>
         {/* dashboard content */}
