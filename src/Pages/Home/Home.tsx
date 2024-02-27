@@ -6,8 +6,7 @@ import RecipeMenu from "./RecipeMenu/RecipeMenu";
 
 const Home = () => {
   return (
-    <div>
-      This is home page
+    <div>      
       <Banner></Banner>
       <Category></Category>
       <RecipeMenu />
