@@ -6,7 +6,7 @@ export default function LocationGoogleMap() {
     <>
       <h1 className="text-4xl font-bold my-[6rem] text-center">Our location</h1>
       <div className="w-full">
-        <GoogleMap width="100" height="170" />
+        <GoogleMap width="100" height="350" />
       </div>
     </>
   );
