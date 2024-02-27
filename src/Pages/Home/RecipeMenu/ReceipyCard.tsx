@@ -18,4 +18,4 @@ export default function ReceipyCard({ items, keyGenerator }: ReceipyCardProps) {
       ))}
     </div>
   );
-};
+}
