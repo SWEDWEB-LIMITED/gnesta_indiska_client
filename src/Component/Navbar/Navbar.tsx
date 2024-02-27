@@ -29,13 +29,13 @@ const Navbar = () => {
   };
 
   return (
-    <div className="navbar justify-evenly font-bold fixed bg-black bg-opacity-40 text-white z-50">
+    <div className="navbar font-bold fixed bg-black bg-opacity-40 text-white z-50">
       <div className="navbar-start">
-        <div className="dropdown">
+        <div className="dropdown justify-between">
           <div
             tabIndex={0}
             role="button"
-            className="btn btn-ghost lg:hidden"
+            className="btn btn-ghost md:hidden "
             onClick={toggleDropdown}
           >
             <svg
@@ -57,20 +57,18 @@ const Navbar = () => {
             <ul
               onClick={closeDropdown}
               tabIndex={0}
-              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-neutral  rounded-box w-52"
             >
               {links}
             </ul>
           )}
         </div>
         <Link to="/">
-          <img className="max-w-[3rem]" src="logo.png" alt="" />
+          <img className="max-w-[3rem] mr-5 md:m-auto" src="logo.png" alt="" />
         </Link>
-        <span className="p-2 uppercase font-bold">
-          Gnesta Indiska Restaurang
-        </span>
+        <span className="p-2 uppercase font-bold ">Gnesta Indiska</span>
       </div>
-      <div className="navbar-center hidden lg:flex">
+      <div className="navbar-center hidden md:flex">
         <ul className="menu menu-horizontal px-1">{links}</ul>
       </div>
     </div>
