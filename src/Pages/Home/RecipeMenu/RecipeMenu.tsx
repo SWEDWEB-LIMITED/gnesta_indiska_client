@@ -70,13 +70,16 @@ export default function RecipeMenu() {
           </div>
         </div>
 
-        <div className="mt-[5rem] text-center text-xl">
+        <div className="mt-[5rem] shadow-2xl bg-amber-300 p-10  max-w-2xl mx-auto font-extrabold text-center text-xl">
           <p> Stora Torget 5, 64631 Gnesta</p>
           <p className="font-bold">Telefon: 0158 106 68</p>
           <p className="mt-5">Öppettider:</p>
           <p className="font-bold">Mân-fre 11:00-21:00</p>
           <p className="font-bold"> Lör-sön 13:00-21:00</p>
-          <p className=" font-bold mt-5"> För avhämtning och beställining:- 0158 106 68</p>
+          <p className=" font-bold mt-5">
+            {" "}
+            För avhämtning och beställining:- 0158 106 68
+          </p>
         </div>
       </div>
     </>

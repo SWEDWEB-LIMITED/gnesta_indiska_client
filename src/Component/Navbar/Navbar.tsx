@@ -5,10 +5,16 @@ const Navbar = () => {
   const links = (
     <>
       <li>
-        <NavLink to="/">Home</NavLink>
+        <NavLink to="/">Hem</NavLink>
       </li>
       <li>
-        <NavLink to="/about">About Us</NavLink>
+        <NavLink to="/about">Om Oss</NavLink>
+      </li>
+      <li>
+        <NavLink to="/menu">Meny</NavLink>
+      </li>
+      <li>
+        <NavLink to="/contact">Kontakta Oss</NavLink>
       </li>
     </>
   );
@@ -23,7 +29,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="navbar justify-between">
+    <div className="navbar justify-between font-bold">
       <div className="navbar-start">
         <div className="dropdown">
           <div

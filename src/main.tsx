@@ -6,10 +6,10 @@ import Root from "./layout/Root/Root";
 import Home from "./Pages/Home/Home";
 import Dashboard from "./layout/Dashboard/Dashboard";
 import AboutUs from "./Pages/AboutUs/AboutUs";
-import AddMenuItem from "./Pages/Dashboard/AddMenuItem/AddMenuItem"; 
-import Menu from "./Pages/Menu/Menu"; 
+import AddMenuItem from "./Pages/Dashboard/AddMenuItem/AddMenuItem";
+import Menu from "./Pages/Menu/Menu";
 import ManageMenuItems from "./Pages/Dashboard/ManageMenuItems/ManageMenuItems";
-import UpdateMenuItem from "./Pages/Dashboard/UpdateMenuItem/UpdateMenuItem"; 
+import UpdateMenuItem from "./Pages/Dashboard/UpdateMenuItem/UpdateMenuItem";
 
 const router = createBrowserRouter([
   {
@@ -26,7 +26,7 @@ const router = createBrowserRouter([
       },
       {
         path: "menu",
-        element: <Menu/>,
+        element: <Menu defaultItemsNumber={0} />,
       },
     ],
   },
@@ -51,7 +51,9 @@ const router = createBrowserRouter([
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
-  <React.StrictMode>
-    <RouterProvider router={router} />
-  </React.StrictMode>
+  <div className="bg-[#ffaa36]">
+    <React.StrictMode>
+      <RouterProvider router={router} />
+    </React.StrictMode>
+  </div>
 );
