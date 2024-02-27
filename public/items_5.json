@@ -1,0 +1,55 @@
+[
+    {
+      "category": "BANGLADESHISKT MAT",
+      "items": [
+        {
+          "serial": 35,
+          "name": "Biriany - veg",
+          "description": "Tillagad med stek saffran blandat ris russian och cashewnötter. Tillagas i currysås.",
+          "price": "199",
+          "specialPrice": "215",
+          "extraSpecialPrice": "229"
+        },
+        {
+          "serial": 36,
+          "name": "Bangla chicken Bhuna",
+          "description": "Kycklingfilé med färsk koriander tärnad lök. Tillagas i currysås.",
+          "price": "199"
+        },
+        {
+          "serial": 37,
+          "name": "Rezala",
+          "description": "Tillagad med grön chili, mild russin och pistagenötter i krämig cashewnötsås.",
+          "price": "199",
+          "specialPrice": "215"
+        },
+        {
+          "serial": 38,
+          "name": "Lamm Leg (Medium Stark)",
+          "description": "Med lamm, Cashewnöttersås, Mild russian och chili, Ingefära.",
+          "price": "249"
+        },
+        {
+          "serial": 39,
+          "name": "Spenat Räkor (225)",
+          "description": "Spenat med cashewnötter, Currysås.",
+          "price": "199",
+          "specialPrice": "215"
+        },
+        {
+          "serial": 40,
+          "name": "Sambal Masala",
+          "description": "Tillagad med sydindish Sambalkryddat Tomatsås.",
+          "price": "199",
+          "specialPrice": "215"
+        },
+        {
+          "serial": 41,
+          "name": "Lax Bhuna",
+          "description": "Laxfilé tillagas med koriander, vitlök i Currysås.",
+          "price": "229"
+        }
+      ]
+    }
+  ]
+  

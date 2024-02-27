@@ -1,0 +1,32 @@
+[
+    {
+      "category": "BRÖD",
+      "items": [
+        {
+          "serial": 49,
+          "name": "Plain Naan",
+          "description": "",
+          "price": "30"
+        },
+        {
+          "serial": 50,
+          "name": "Vitlök Naan",
+          "description": "",
+          "price": "35"
+        },
+        {
+          "serial": 51,
+          "name": "Peshwari Naan (Sweet Naan)",
+          "description": "Mandel, kokos & socker, cashewnötter",
+          "price": "45"
+        },
+        {
+          "serial": 52,
+          "name": "Paneer Naan",
+          "description": "Bröd med hemgjord ost och färska kryddor",
+          "price": "45"
+        }
+      ]
+    }
+  ]
+  

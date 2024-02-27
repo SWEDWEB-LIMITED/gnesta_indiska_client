@@ -1,0 +1,56 @@
+[
+    {
+      "category": "DESSERT",
+      "items": [
+        {
+          "serial": 58,
+          "name": "Kulfi - Indisk glass",
+          "description": "",
+          "price": "59"
+        },
+        {
+          "serial": 59,
+          "name": "Lassi - Indisk söt mango shake",
+          "description": "",
+          "price": "59"
+        },
+        {
+          "serial": 60,
+          "name": "Vanilj Ice Cream - Cola eller chokladsås",
+          "description": "",
+          "price": "49"
+        },
+        {
+          "serial": 61,
+          "name": "Indian Cha",
+          "description": "",
+          "price": "50"
+        },
+        {
+          "serial": 62,
+          "name": "Pepsi",
+          "description": "",
+          "price": "29"
+        },
+        {
+          "serial": 63,
+          "name": "Coca-Cola",
+          "description": "",
+          "price": "29"
+        },
+        {
+          "serial": 64,
+          "name": "Sprite",
+          "description": "",
+          "price": "29"
+        },
+        {
+          "serial": 65,
+          "name": "Fanta",
+          "description": "",
+          "price": "29"
+        }
+      ]
+    }
+  ]
+  

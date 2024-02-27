@@ -1,0 +1,95 @@
+[
+    {
+      "category": "TYPISKA RÄTTER",
+      "items": [
+        {
+          "serial": 22,
+          "name": "Mango Balti (medium stark)",
+          "description": "Med färsk koriander ingefera och stekt paprika. Tillagas i baltisås med mango.",
+          "price": "199",
+          "specialPrice": "219"
+        },
+        {
+          "serial": 23,
+          "name": "Balti (medium stark)",
+          "description": "Med färsk koriander ingefera och stekt paprika. Tillagas i baltisås.",
+          "price": "199",
+          "specialPrice": "215"
+        },
+        {
+          "serial": 24,
+          "name": "Scampi Balti (Medium stark)",
+          "description": "Med färsk koriander ingefera scampi och stekt paprika. Tillagas i baltisås.",
+          "price": "239"
+        },
+        {
+          "serial": 25,
+          "name": "Paneer Balti (medium stark)",
+          "description": "Med färsk koriander, ost ingefera och stekt paprika. Tillagas i baltisås.",
+          "price": "199"
+        },
+        {
+          "serial": 26,
+          "name": "Korai (mycket stark)",
+          "description": "Med färsk koriander vitlök stekt paprika och. Tillagas i currysås.",
+          "price": "199",
+          "specialPrice": "215"
+        },
+        {
+          "serial": 27,
+          "name": "Scampi korai (mycket stark)",
+          "description": "Med färsk koriander, scampi, vitlök, stekt paprika och. Tillagas i currysås.",
+          "price": "239"
+        },
+        {
+          "serial": 28,
+          "name": "Paneer korai (mycket stark)",
+          "description": "Med ost färsk koriander vitlök stekt paprika och. Tillagas i currysås.",
+          "price": "199"
+        },
+        {
+          "serial": 29,
+          "name": "Madras curry (stark)",
+          "description": "Tillagas med kokos senafrö, chili pickles.",
+          "price": "199",
+          "specialPrice": "215"
+        },
+        {
+          "serial": 30,
+          "name": "Jhal frezy (stark)",
+          "description": "Tillagas med yoghurt paprika koriander syrlig.",
+          "price": "199",
+          "specialPrice": "215"
+        },
+        {
+          "serial": 31,
+          "name": "Methy gosht (mellan stark)",
+          "description": "Tillagas med methy i currysås.",
+          "price": "199",
+          "specialPrice": "215"
+        },
+        {
+          "serial": 32,
+          "name": "Vindaloo",
+          "description": "Tillagad med extra stark tomatsås.",
+          "price": "210",
+          "specialPrice": "225"
+        },
+        {
+          "serial": 33,
+          "name": "Dall",
+          "description": "Tillagas med gula linser i currysås.",
+          "price": "199",
+          "specialPrice": "215"
+        },
+        {
+          "serial": 34,
+          "name": "Badam jhal frezy",
+          "description": "Marinerad grillade med grön chili, lök, vitlök, syltlök och paprika. Tillagas med cashewnötter och currysås.",
+          "price": "219",
+          "specialPrice": "235"
+        }
+      ]
+    }
+  ]
+  

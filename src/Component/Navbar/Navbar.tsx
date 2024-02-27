@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
-import Gnesta from "../../assets/GNESTA.png";
 
 const Navbar = () => {
   const links = (
@@ -58,7 +57,7 @@ const Navbar = () => {
             </ul>
           )}
         </div>
-        <img className="max-w-32" src={Gnesta} alt="" />
+        <img className="max-w-[3rem]" src="logo.png" alt="" />
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{links}</ul>

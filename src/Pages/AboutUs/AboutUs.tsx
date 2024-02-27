@@ -16,18 +16,21 @@ const AboutUs = () => {
       <div className="absolute inset-0 bg-black opacity-20"></div>
       <div className="relative z-10 max-w-3xl mx-auto text-center p-6 rounded-md shadow-lg">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-8 font-serif tracking-wide">
-          About GNESTA INDISKA
+          Om GNESTA INDISKA
         </h1>
         <p className="text-lg md:text-xl lg:text-2xl mb-6 leading-relaxed">
-          Authentic Indian cuisine, modern dining. Rich flavors, vibrant
-          atmospheres.
+          Äkta indisk mat, modern atmosfär. Rika smaker, livliga miljöer.
         </p>
         <p className="text-lg md:text-xl lg:text-2xl mb-8 leading-relaxed">
-          Crafted with care, our menu offers classic and contemporary delights.
-          Experience warmth, hospitality, and celebrate the essence of India
-          with us!
+          Vår noggrant skapade meny erbjuder klassiska och samtida läckerheter.
+          Upplev värme, gästfrihet och fira Indiens essens med oss!
         </p>
-        <div className="flex justify-center items-center mb-6">
+        <div className="font-bold text-lg">
+          <p>Öppettider:</p>
+          <p>MÅN-FRE: 11:00 - 21:00</p>
+          <p>LÖR-SÖN: 13:00 - 21:00</p>
+        </div>
+        <div className="flex justify-center items-center my-6">
           <div className="mr-4">
             <FaUtensils className="text-4xl text-white" />
           </div>
@@ -35,6 +38,7 @@ const AboutUs = () => {
             <FaRegGem className="text-4xl text-white" />
           </div>
         </div>
+
         <div className="text-lg font-extrabold">
           <p>📍 Stora Torget 5, 64631 Gnesta</p>
           <p>☎️ Telefon: 0158 106 68</p>

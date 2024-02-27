@@ -1,14 +1,15 @@
 import Banner from "./Banner/Banner";
 import Category from "./Category/Category";
-import Footer from "./Footer/Footer";
-
+import LocationGoogleMap from "./LocationGoogleMap/LocationGoogleMap";
+import RecipeMenu from "./RecipeMenu/RecipeMenu";
 
 const Home = () => {
   return (
-    <div>      
+    <div>
       <Banner></Banner>
       <Category></Category>
-      <Footer></Footer>
+      <RecipeMenu></RecipeMenu>
+      <LocationGoogleMap></LocationGoogleMap>
     </div>
   );
 };
