@@ -9,7 +9,12 @@
     font-family: Mulish ;
 }
 
-
+.shehub_center_div{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
