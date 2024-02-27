@@ -31,7 +31,7 @@ export default function RecipeMenu() {
   };
 
   return (
-    <div className="shehub_center_div flex-col">
+    <div className="shehub_center_div flex-col bg-[#ffaa36] font-bold">
       <h1 className="text-4xl font-bold mb-[6rem]">Menu List</h1>
 
       <div className="flex flex-row gap-x-8">
@@ -40,7 +40,10 @@ export default function RecipeMenu() {
           {dynamicMapData(items_1)}
           {dynamicMapData(items_2)}
           {dynamicMapData(items_3)}
-          <p className="mt-[-1.7rem] font-bold"> För avhämtning och beställining:- 0158 106 68</p>
+          <p className="mt-[-1.7rem] font-bold">
+            {" "}
+            För avhämtning och beställining:- 0158 106 68
+          </p>
         </div>
         {/* section 2 */}
         <div className="flex flex-col gap-y-[5rem]  items-center">
