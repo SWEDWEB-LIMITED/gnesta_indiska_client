@@ -6,9 +6,10 @@ import Root from "./layout/Root/Root";
 import Home from "./Pages/Home/Home";
 import Dashboard from "./layout/Dashboard/Dashboard";
 import AboutUs from "./Pages/AboutUs/AboutUs";
-import AddMenuItem from "./Pages/Dashboard/AddMenuItem/AddMenuItem";
+import AddMenuItem from "./Pages/Dashboard/AddMenuItem/AddMenuItem"; 
+import Menu from "./Pages/Menu/Menu"; 
 import ManageMenuItems from "./Pages/Dashboard/ManageMenuItems/ManageMenuItems";
-import UpdateMenuItem from "./Pages/Dashboard/UpdateMenuItem/UpdateMenuItem";
+import UpdateMenuItem from "./Pages/Dashboard/UpdateMenuItem/UpdateMenuItem"; 
 
 const router = createBrowserRouter([
   {
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
       {
         path: "about",
         element: <AboutUs></AboutUs>,
+      },
+      {
+        path: "menu",
+        element: <Menu/>,
       },
     ],
   },
