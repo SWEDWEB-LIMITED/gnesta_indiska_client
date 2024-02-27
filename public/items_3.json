@@ -1,0 +1,56 @@
+[
+    {
+      "category": "TANDOORI SIZLAR",
+      "items": [
+        {
+          "serial": 14,
+          "name": "Chicken Tikka Sizlar",
+          "description": "Grillade kyckling filéer serveras på en rykande het järnform med strimlade grönsaker och krämig tomatsås",
+          "price": "209"
+        },
+        {
+          "serial": 15,
+          "name": "Garlic chicken Sizla",
+          "description": "Grillade vitlöksmarinerad kyckling filéer serveras på en rykande het järnform med strimlade grönsaker och krämig tomatsås",
+          "price": "209"
+        },
+        {
+          "serial": 16,
+          "name": "Lime chicken Sizlar",
+          "description": "Limemarinerad grillade kyckling filéer serveras på en rykande het järnform med strimlade grönsaker och krämig tomatsås",
+          "price": "209"
+        },
+        {
+          "serial": 17,
+          "name": "Chili chicken Sizlar",
+          "description": "Chili marinerad kyckling filéer serveras på en rykande het järnform med strimlade grönsaker och krämig chilisås",
+          "price": "209"
+        },
+        {
+          "serial": 18,
+          "name": "Lamm tikka Sizlar",
+          "description": "Lamm filé marinerad med färsk ingefära vitlök, mynta grillas i tandoor och serveras på en rykande het järnform med strimlade grönsaker och krämig tomatsås",
+          "price": "239"
+        },
+        {
+          "serial": 19,
+          "name": "Garlic chilli lamm Sizlar",
+          "description": "Vitlöks och chilimarinerad lammfilé serveras på en het järnform med strimlade grönsaker och krämig chilisås",
+          "price": "239"
+        },
+        {
+          "serial": 20,
+          "name": "Mix sizlar",
+          "description": "Grillade kycklingfilé och scampi serveras på en rykande het järnform med strimlade grönsaker och krämig tomatsås",
+          "price": "245"
+        },
+        {
+          "serial": 21,
+          "name": "Scampi sizlar",
+          "description": "Grillade scampi som serveras på en rykande het järnform med strimlade grönsaker och krämig tomatsås",
+          "price": "245"
+        }
+      ]
+    }
+  ]
+  
