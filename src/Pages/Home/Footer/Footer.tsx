@@ -1,11 +1,10 @@
-import Gnesta from "../../../assets/GNESTA.png";
 
 const Footer = () => {
     return (
         <div className="bg-neutral text-neutral-content">
            <footer className="footer p-10 justify-evenly ">
             <div>
-                <img className="max-w-24" src={Gnesta} alt="" />
+                <img className="max-w-24" src={"logo.png"} alt="" />
                 
             </div> 
             <div>
