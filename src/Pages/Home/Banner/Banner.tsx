@@ -12,13 +12,13 @@ const Banner = () => {
       interval={5000} 
     >
       <div>
-        <img src={banner} className='max-h-[550px]'  alt="Banner 1" />
+        <img src={banner} className='max-h-[550px] object-cover'  alt="Banner 1" />
       </div>
       <div>
-        <img src={banner} className='max-h-[550px]' alt="Banner 2" />
+        <img src={banner} className='max-h-[550px] object-cover' alt="Banner 2" />
       </div>
       <div>
-        <img src={banner} className='max-h-[550px]' alt="Banner 3" />
+        <img src={banner} className='max-h-[550px] object-cover' alt="Banner 3" />
       </div>
     </Carousel>
   );
