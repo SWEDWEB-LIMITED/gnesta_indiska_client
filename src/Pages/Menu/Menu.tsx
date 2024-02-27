@@ -12,13 +12,17 @@ import items_7 from "../../../public/items_7.json";
 import items_8 from "../../../public/items_8.json";
 import items_9 from "../../../public/items_9.json";
 
-export default function Menu({ defaultItemsNumber }: { defaultItemsNumber?: number }) {
+export default function Menu({
+  defaultItemsNumber,
+}: {
+  defaultItemsNumber?: number;
+}) {
   return (
     <div className="overflow-hidden">
       <div className="bg h-screen flex w-full justify-center items-center text-white text-center">
         <div className="p-[5rem] w-full bg-black bg-opacity-60">
-          <p className="text-8xl">Order Food</p>
-          <p className="text-4xl mt-4">Would you like to try a dish?</p>
+          <p className="text-8xl">Beställ Mat</p>
+          <p className="text-4xl mt-4">Vill du prova en rätt?</p>
         </div>
       </div>
 

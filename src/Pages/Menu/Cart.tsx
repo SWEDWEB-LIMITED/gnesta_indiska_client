@@ -12,11 +12,10 @@ export default function Cart({ item }: { item: ReceipyCardType }) {
       <div className="card-body ">
         <h2 className="card-title w-[30rem] grid grid-cols-2">
           {item.name}
-          <div className="badge badge-secondary">SEK {item.price}</div>
+          <div className="badge badge-neutral  p-3">SEK {item.price}</div>
         </h2>
         <p>{item.description}</p>
-        <div className="card-actions justify-end">
-        </div>
+        <div className="card-actions justify-end"></div>
       </div>
     </div>
   );
