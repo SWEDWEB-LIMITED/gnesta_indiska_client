@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const links = (
@@ -8,13 +8,13 @@ const Navbar = () => {
         <NavLink to="/">Hem</NavLink>
       </li>
       <li>
-        <NavLink to="/about">Om Oss</NavLink>
+        <NavLink to="/booktable">Boka Bord</NavLink>
       </li>
       <li>
         <NavLink to="/menu">Meny</NavLink>
       </li>
       <li>
-        <NavLink to="/contact">Kontakta Oss</NavLink>
+        <NavLink to="/about">Om Oss</NavLink>
       </li>
     </>
   );
@@ -29,7 +29,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="navbar justify-between font-bold">
+    <div className="navbar justify-evenly font-bold fixed bg-black bg-opacity-40 text-white z-50">
       <div className="navbar-start">
         <div className="dropdown">
           <div
@@ -63,7 +63,12 @@ const Navbar = () => {
             </ul>
           )}
         </div>
-        <img className="max-w-[3rem]" src="logo.png" alt="" />
+        <Link to="/">
+          <img className="max-w-[3rem]" src="logo.png" alt="" />
+        </Link>
+        <span className="p-2 uppercase font-bold">
+          Gnesta Indiska Restaurang
+        </span>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{links}</ul>

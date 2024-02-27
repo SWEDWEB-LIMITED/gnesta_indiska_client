@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
-    <div className="text-black">
-      <footer className="footer p-10 justify-evenly ">
+    <div>
+      <footer className="footer bg-[#ffaa36] p-10 justify-evenly ">
         <div>
           <img className="max-w-24" src={"logo.png"} alt="" />
         </div>

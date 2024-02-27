@@ -6,19 +6,22 @@
         "serial": 5,
         "name": "Chicken Tikka butter masala",
         "description": "Grillade kyckling filéer med mald Mandel cashewnötter och smör i krämig tomatsås",
-        "price": "195"
+        "price": "195",
+        "image": ""
       },
       {
         "serial": 6,
         "name": "Mango chicken tikka butter masala",
         "description": "Grillade kyckling filéer med mald Mandel, cashewnötter och kokos i krämig tomatsås med mango",
-        "price": "199"
+        "price": "199",
+        "image":""
       },
       {
         "serial": 7,
         "name": "Lamm tikka butter masala",
         "description": "Grillade Lamm fileér med mald mandel cashewnötter och smör i krämig tomatsås",
-        "price": "239"
+        "price": "239",
+        "image": ""
       },
       {
         "serial": 8,

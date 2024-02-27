@@ -74,8 +74,8 @@ export default function RecipeMenu() {
           <p> Stora Torget 5, 64631 Gnesta</p>
           <p className="font-bold">Telefon: 0158 106 68</p>
           <p className="mt-5">Öppettider:</p>
-          <p className="font-bold">Mân-fre 11:00-21:00</p>
-          <p className="font-bold"> Lör-sön 13:00-21:00</p>
+          <p className="font-bold">MÅN-FRE: 11:00 - 21:00</p>
+          <p className="font-bold">LÖR-SÖN: 13:00 - 21:00</p>
           <p className=" font-bold mt-5">
             {" "}
             För avhämtning och beställining:- 0158 106 68
