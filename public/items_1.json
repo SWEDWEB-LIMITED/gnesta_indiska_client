@@ -1,0 +1,34 @@
+[
+    {
+        "category": "FÖRRÄTTER",
+        "items": [
+            {
+                "serial": 1,
+                "name": "Papadam",
+                "description": "Crispy linsmjölchips serveras med mango chutney",
+                "price": "49"
+            },
+            {
+                "category": "FÖRRÄTTER",
+                "serial": 2,
+                "name": "Samosa",
+                "description": "Vegetariska piroger med tamarind sås",
+                "price": "70"
+            },
+            {
+                "category": "FÖRRÄTTER",
+                "serial": 3,
+                "name": "Mix pakora",
+                "description": "Knapriya blandade grönsaker och ost med tamarind sås",
+                "price": "75"
+            },
+            {
+                "category": "FÖRRÄTTER",
+                "serial": 4,
+                "name": "Paneer pakora",
+                "description": "Friterad hemgjord ost",
+                "price": "75"
+            }
+        ]
+    }
+]

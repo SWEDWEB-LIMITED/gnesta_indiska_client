@@ -1,0 +1,38 @@
+[
+    {
+      "category": "TILLBEHÖR",
+      "items": [
+        {
+          "serial": 53,
+          "name": "Chili Pickles",
+          "description": "",
+          "price": "25"
+        },
+        {
+          "serial": 54,
+          "name": "Mango Chutney",
+          "description": "",
+          "price": "25"
+        },
+        {
+          "serial": 55,
+          "name": "Raita",
+          "description": "",
+          "price": "49"
+        },
+        {
+          "serial": 56,
+          "name": "Extra Ris",
+          "description": "",
+          "price": "25"
+        },
+        {
+          "serial": 57,
+          "name": "Saffran Ris",
+          "description": "",
+          "price": "35"
+        }
+      ]
+    }
+  ]
+  
