@@ -1,0 +1,50 @@
+[
+    {
+      "category": "VEGETARISKT",
+      "items": [
+        {
+          "serial": 42,
+          "name": "Paneer Palak",
+          "description": "Hemgjord ost, vitlök, ingefära, bladspenat tillagas med krämig currysås.",
+          "price": "195"
+        },
+        {
+          "serial": 43,
+          "name": "Chana Masala",
+          "description": "Gula linser med kummin, lök, vitlök, grön chili, koriander med masalasås.",
+          "price": "169"
+        },
+        {
+          "serial": 44,
+          "name": "Dal Makhani",
+          "description": "Tillagad med olika typer av linser, grädde, koriander i currysås.",
+          "price": "179"
+        },
+        {
+          "serial": 45,
+          "name": "Dal Spenat",
+          "description": "Spenat, blandade linser och kokos i currysås.",
+          "price": "169"
+        },
+        {
+          "serial": 46,
+          "name": "Dal Methi",
+          "description": "Tillagad med mung bönor, Methi (bockhornsklöver), citron, koriander i currysås.",
+          "price": "169"
+        },
+        {
+          "serial": 47,
+          "name": "Spenat Vaji",
+          "description": "Spenat med vitlök, lök.",
+          "price": "169"
+        },
+        {
+          "serial": 48,
+          "name": "Mix vegetable",
+          "description": "Säsongens färska grönsaker, ost, vitlök, ingefära, koriander med currysås.",
+          "price": "179"
+        }
+      ]
+    }
+  ]
+  
