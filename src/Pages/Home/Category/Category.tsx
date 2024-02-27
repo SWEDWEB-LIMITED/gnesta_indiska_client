@@ -1,65 +1,39 @@
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination } from "swiper/modules";
-
-import "swiper/css";
-import "swiper/css/pagination";
-
-import slide1 from "../../../assets/home/slide4.jpg";
-
 const Category = () => {
   return (
-    <div className="container mx-auto">
-      <div className="text-center text-4xl font-bold">Categories</div>
-      <Swiper
-        slidesPerView={4}
-        spaceBetween={30}
-        pagination={{
-          clickable: true,
-        }}
-        modules={[Pagination]}
-        className="mySwiper my-24"
-      >
-        <SwiperSlide>
-          <div className="relative mb-12">
-            <img src={slide1} alt="" />
-            <h4 className="absolute left-1/2 -translate-x-1/2 text-center -mt-16 text-3xl uppercase text-white">
-              Salads
-            </h4>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="relative mb-12">
-            <img src={slide1} alt="" />
-            <h4 className="absolute left-1/2 -translate-x-1/2 text-center -mt-16 text-3xl uppercase text-white">
-              pizzas
-            </h4>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="relative mb-12">
-            <img src={slide1} alt="" />
-            <h4 className="absolute left-1/2 -translate-x-1/2 text-center -mt-16 text-3xl uppercase text-white">
-              Soups
-            </h4>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="relative mb-12">
-            <img src={slide1} alt="" />
-            <h4 className="absolute left-1/2 -translate-x-1/2 text-center -mt-16 text-3xl uppercase text-white">
-              desserts
-            </h4>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="relative mb-12">
-            <img src={slide1} alt="" />
-            <h4 className="absolute left-1/2 -translate-x-1/2 text-center -mt-16 text-3xl uppercase text-white">
-              Salads
-            </h4>
-          </div>
-        </SwiperSlide>
-      </Swiper>
+    <div className="container mx-auto my-32">
+      <div className="text-center text-4xl font-bold mb-16">Categories</div>
+      <div className="flex flex-wrap items-center gap-6 justify-evenly px-4">
+        <div className="relative h-[450px] w-[270px]">
+          <img
+            className="h-full w-full object-cover"
+            src={"https://i.ibb.co/1vQq3ds/Krustader-med-r-kr-ra.jpg"}
+            alt=""
+          />
+          <h4 className="absolute left-1/2 -translate-x-1/2 text-center -mt-16 text-3xl bg-[#FFAA36] p-3 font-semibold">
+            FÖRRÄTTER
+          </h4>
+        </div>
+        <div className="relative h-[450px] w-[270px]">
+          <img
+            className="h-full w-full object-cover"
+            src={"https://i.ibb.co/rwMqwhC/1.webp"}
+            alt=""
+          />
+          <h4 className="absolute left-1/2 -translate-x-1/2 text-center -mt-16 text-3xl bg-[#FFAA36] p-3 font-semibold">
+            HUVUDRÄTTER
+          </h4>
+        </div>
+        <div className="relative h-[450px] w-[270px]">
+          <img
+            className="h-full w-full object-cover"
+            src={"https://i.ibb.co/PcP1tbZ/Swedish-Semlor-Buns-683x1024.png"}
+            alt=""
+          />
+          <h4 className="absolute left-1/2 -translate-x-1/2 text-center -mt-16 text-3xl bg-[#FFAA36] p-3 font-semibold">
+            EFTERRÄTTER
+          </h4>
+        </div>
+      </div>
     </div>
   );
 };
