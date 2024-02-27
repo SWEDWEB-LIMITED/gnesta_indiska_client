@@ -7,6 +7,7 @@ import Home from "./Pages/Home/Home";
 import Dashboard from "./layout/Dashboard/Dashboard";
 import AboutUs from "./Pages/AboutUs/AboutUs";
 import AddMenuItem from "./Pages/Dashboard/AddMenuItem/AddMenuItem";
+import Menu from "./Pages/Menu/Menu";
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
       {
         path: "about",
         element: <AboutUs></AboutUs>,
+      },
+      {
+        path: "menu",
+        element: <Menu/>,
       },
     ],
   },
