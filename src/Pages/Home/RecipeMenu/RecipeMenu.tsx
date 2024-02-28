@@ -19,10 +19,12 @@ export default function RecipeMenu() {
 
   const dynamicMapData = (jsonData: ItemsType[]) => {
     return (
-      <div>
+      <div className="">
         {jsonData.map((data, index) => (
           <div key={index}>
-            <h2 className="text-4xl mb-10 font-bold">{data.category}</h2>
+            <p className="text-center text-2xl lg:text-3xl xl:text-4xl mb-10 font-bold">
+              {data.category}
+            </p>
             <ReceipyCard items={data} keyGenerator={keyGenerator} />
           </div>
         ))}
@@ -32,19 +34,16 @@ export default function RecipeMenu() {
 
   return (
     <>
-      <div className="bg-[#ffaa36] font-bold mt-[-3rem] py-[3rem]">
+      <div className="bg-[#ffaa36] font-bold mt-[-3rem] py-[3rem] overflow-hidden">
         <h1 className="text-4xl font-bold mb-[6rem] text-center">Menu List</h1>
 
-        <div className="flex w-full justify-center flex-wrap gap-[48px]">
-          {/* 1 */}
-          <div className="flex flex-col gap-[5rem]">
+        <div className="grid sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-x-4 gap-y-[5rem]">
+          <div className="flex flex-col gap-[5rem] items-center ">
             {dynamicMapData(items_1)}
             {dynamicMapData(items_2)}
             {dynamicMapData(items_3)}
           </div>
-
-          {/* 2 */}
-          <div className="flex flex-col gap-[5rem] items-center">
+          <div className="flex flex-col gap-[5rem] items-center ">
             {dynamicMapData(items_4)}
             <img
               src="logo.png"
@@ -53,30 +52,48 @@ export default function RecipeMenu() {
             />
             {dynamicMapData(items_5)}
           </div>
-
-          {/* 3 */}
-          <div className="flex flex-col gap-[5rem]">
+          <div className="flex flex-col gap-[5rem] items-center ">
             {dynamicMapData(items_6)}
             {dynamicMapData(items_7)}
-            <div className="flex flex-col gap-[5rem] sm:flex md:hidden lg:hidden xl:hidden 2xl:flex">
+
+            <div className="flex sm:flex md:hidden xl:flex flex-col gap-[5rem] items-center ">
               {dynamicMapData(items_8)}
               {dynamicMapData(items_9)}
+
+              <div className={`mt-[5rem] text-center text-xl `}>
+              <p> Stora Torget 5, 64631 Gnesta</p>
+              <p className="font-bold">Telefon: 0158 106 68</p>
+              <p className="mt-5">Öppettider:</p>
+              <p className="font-bold">Mân-fre 11:00-21:00</p>
+              <p className="font-bold"> Lör-sön 13:00-21:00</p>
+              <p className=" font-bold mt-5">
+                {" "}
+                För avhämtning och beställining:- <br className="sm:block" />{" "}
+                0158 106 68
+              </p>
             </div>
+
+            </div>
+
+            
           </div>
 
-          <div className="flex flex-col gap-[5rem] sm:hidden md:flex lg:flex xl:flex 2xl:hidden">
+          <div className="hidden sm:hidden md:flex xl:hidden md:mt-[-9rem] flex-col gap-[5rem] items-center ">
             {dynamicMapData(items_8)}
             {dynamicMapData(items_9)}
+            <div className={`mt-[5rem] text-center text-xl `}>
+              <p> Stora Torget 5, 64631 Gnesta</p>
+              <p className="font-bold">Telefon: 0158 106 68</p>
+              <p className="mt-5">Öppettider:</p>
+              <p className="font-bold">Mân-fre 11:00-21:00</p>
+              <p className="font-bold"> Lör-sön 13:00-21:00</p>
+              <p className=" font-bold mt-5">
+                {" "}
+                För avhämtning och beställining:- <br className="sm:block" />{" "}
+                0158 106 68
+              </p>
+            </div>
           </div>
-        </div>
-
-        <div className="mt-[5rem] text-center text-xl">
-          <p> Stora Torget 5, 64631 Gnesta</p>
-          <p className="font-bold">Telefon: 0158 106 68</p>
-          <p className="mt-5">Öppettider:</p>
-          <p className="font-bold">Mân-fre 11:00-21:00</p>
-          <p className="font-bold"> Lör-sön 13:00-21:00</p>
-          <p className=" font-bold mt-5"> För avhämtning och beställining:- 0158 106 68</p>
         </div>
       </div>
     </>
