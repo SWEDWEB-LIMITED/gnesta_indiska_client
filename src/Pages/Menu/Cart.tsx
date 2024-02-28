@@ -5,7 +5,7 @@ export default function Cart({ item }: { item: ReceipyCardType }) {
     <div className="card w-96 bg-base-100 shadow-xl h-[28rem] max-h-[28rem]">
       <figure>
         <img
-          src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+          src="recepy.webp"
           alt="Shoes"
         />
       </figure>
