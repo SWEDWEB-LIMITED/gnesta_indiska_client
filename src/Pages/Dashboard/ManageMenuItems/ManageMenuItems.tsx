@@ -28,7 +28,7 @@ const ManageMenuItems = () => {
   };
 
   return (
-    <div>
+    <div className="py-5">
       <h3 className="text-center font-bold text-4xl mb-12">Manage All Items</h3>
       <div>
         <div className="overflow-x-auto">

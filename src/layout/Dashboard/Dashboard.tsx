@@ -34,7 +34,7 @@ const Dashboard = () => {
             </div>
             <div
               style={{ boxShadow: "0px 4px 10px 5px rgba(167,167,167,0.3)" }}
-              className="p-4 mt-12 lg:mt-0 rounded-xl"
+              className="p-4 mt-12 lg:mt-0 rounded-xl min-h-screen"
             >
               <Outlet></Outlet>
             </div>
