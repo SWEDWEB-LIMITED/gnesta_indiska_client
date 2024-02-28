@@ -73,7 +73,8 @@ const UpdateMenuItem = () => {
   };
 
   return (
-    <div>
+    <div className="py-5">
+      <h3 className="text-center font-bold text-4xl mb-12">Update Menu Item</h3>
       <Formik
         initialValues={initialValues}
         validationSchema={validationSchema}
@@ -97,8 +98,8 @@ const UpdateMenuItem = () => {
               component="div"
             />
           </div>
-          <div className="flex gap-6">
-            <div className="form-control font-semibold w-1/2">
+          <div className="flex flex-col sm:flex-row gap-0 sm:gap-6">
+            <div className="form-control font-semibold w-full sm:w-1/2">
               <label className="label" htmlFor="category">
                 <span>Category</span>
               </label>
@@ -120,7 +121,7 @@ const UpdateMenuItem = () => {
                 component="div"
               />
             </div>
-            <div className="form-control font-semibold w-1/2">
+            <div className="form-control font-semibold w-full sm:w-1/2">
               <label className="label" htmlFor="price">
                 <span>Price</span>
               </label>
