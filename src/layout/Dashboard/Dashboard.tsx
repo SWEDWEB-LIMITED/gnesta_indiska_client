@@ -7,16 +7,37 @@ const Dashboard = () => {
       <div className="container mx-auto p-5">
         <div className="drawer lg:drawer-open">
           <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
-          <div
-            style={{ boxShadow: "0px 4px 10px 5px rgba(167,167,167,0.3)" }}
-            className="drawer-content flex flex-col p-4 rounded-xl"
-          >
+          <div className="drawer-content flex flex-col">
             {/* Page content here */}
-            <label
-              htmlFor="my-drawer-2"
-              className="btn btn-primary drawer-button lg:hidden"
-            ></label>
-            <Outlet></Outlet>
+            <div
+              style={{ boxShadow: "0px 4px 10px 5px rgba(167,167,167,0.3)" }}
+              className="p-5 rounded-xl flex justify-end lg:hidden"
+            >
+              <label
+                htmlFor="my-drawer-2"
+                className="btn btn-outline drawer-button lg:hidden"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  className="inline-block w-5 h-5 stroke-current"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M4 6h16M4 12h16M4 18h16"
+                  ></path>
+                </svg>
+              </label>
+            </div>
+            <div
+              style={{ boxShadow: "0px 4px 10px 5px rgba(167,167,167,0.3)" }}
+              className="p-4 mt-12 lg:mt-0 rounded-xl"
+            >
+              <Outlet></Outlet>
+            </div>
           </div>
           <div
             style={{ boxShadow: "0px 4px 10px 5px rgba(167,167,167,0.3)" }}
