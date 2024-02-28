@@ -29,7 +29,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="navbar font-bold fixed bg-black bg-opacity-40 text-white z-50">
+    <div className="navbar sm:justify-start md:justify-center gap-0 lg:gap-[8rem] xl:gap-[14rem] 2xl:gap-[20rem] font-bold fixed bg-black bg-opacity-40 text-white z-50">
       <div className="navbar-start">
         <div className="dropdown justify-between">
           <div
