@@ -61,21 +61,18 @@ export default function RecipeMenu() {
               {dynamicMapData(items_9)}
 
               <div className={`mt-[5rem] text-center text-xl `}>
-              <p> Stora Torget 5, 64631 Gnesta</p>
-              <p className="font-bold">Telefon: 0158 106 68</p>
-              <p className="mt-5">Öppettider:</p>
-              <p className="font-bold">Mân-fre 11:00-21:00</p>
-              <p className="font-bold"> Lör-sön 13:00-21:00</p>
-              <p className=" font-bold mt-5">
-                {" "}
-                För avhämtning och beställining:- <br className="sm:block" />{" "}
-                0158 106 68
-              </p>
+                <p> Stora Torget 5, 64631 Gnesta</p>
+                <p className="font-bold">Telefon: +46 722 44 03 00</p>
+                <p className="mt-5">Öppettider:</p>
+                <p className="font-bold">Mân-fre 11:00-21:00</p>
+                <p className="font-bold"> Lör-sön 13:00-21:00</p>
+                <p className=" font-bold mt-5">
+                  {" "}
+                  För avhämtning och beställining:- <br className="sm:block" />{" "}
+                  +46 722 44 03 00
+                </p>
+              </div>
             </div>
-
-            </div>
-
-            
           </div>
 
           <div className="hidden sm:hidden md:flex xl:hidden md:mt-[-9rem] flex-col gap-[5rem] items-center ">
@@ -83,14 +80,14 @@ export default function RecipeMenu() {
             {dynamicMapData(items_9)}
             <div className={`mt-[5rem] text-center text-xl `}>
               <p> Stora Torget 5, 64631 Gnesta</p>
-              <p className="font-bold">Telefon: 0158 106 68</p>
+              <p className="font-bold">Telefon: +46 722 44 03 00</p>
               <p className="mt-5">Öppettider:</p>
               <p className="font-bold">Mân-fre 11:00-21:00</p>
               <p className="font-bold"> Lör-sön 13:00-21:00</p>
               <p className=" font-bold mt-5">
                 {" "}
                 För avhämtning och beställining:- <br className="sm:block" />{" "}
-                0158 106 68
+                +46 722 44 03 00
               </p>
             </div>
           </div>
