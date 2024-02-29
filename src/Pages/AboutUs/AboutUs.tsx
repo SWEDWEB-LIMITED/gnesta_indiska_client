@@ -41,7 +41,7 @@ const AboutUs = () => {
 
         <div className="text-lg font-extrabold">
           <p>📍 Stora Torget 5, 64631 Gnesta</p>
-          <p>☎️ Telefon: 0158 106 68</p>
+          <p>☎️ Telefon: +46 722 44 03 00</p>
         </div>
       </div>
     </motion.div>

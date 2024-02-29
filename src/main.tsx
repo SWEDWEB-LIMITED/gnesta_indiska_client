@@ -11,6 +11,8 @@ import Menu from "./Pages/Menu/Menu";
 import ManageMenuItems from "./Pages/Dashboard/ManageMenuItems/ManageMenuItems";
 import UpdateMenuItem from "./Pages/Dashboard/UpdateMenuItem/UpdateMenuItem";
 
+import BookTable from "./Pages/BookTable/BookTable";
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -27,6 +29,10 @@ const router = createBrowserRouter([
       {
         path: "menu",
         element: <Menu defaultItemsNumber={0} />,
+      },
+      {
+        path: "booktable",
+        element: <BookTable></BookTable>,
       },
     ],
   },
