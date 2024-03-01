@@ -1,4 +1,7 @@
-import { ReceipyCardProps, ReceipyCardType } from "../../../utils/RecipeMenuType";
+import {
+  ReceipyCardProps,
+  ReceipyCardType,
+} from "../../../utils/RecipeMenuType";
 
 export default function ReceipyCard({ items, keyGenerator }: ReceipyCardProps) {
   return (
@@ -7,7 +10,7 @@ export default function ReceipyCard({ items, keyGenerator }: ReceipyCardProps) {
         <div key={keyGenerator()}>
           <div className="flex">
             <div className="w-[17rem]">
-              <p className="text-xl lg:text-2xl">
+              <p className="text-lg lg:text-2xl">
                 {data.serial}. {data.name} -
               </p>
               <p>{data.description} </p>

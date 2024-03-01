@@ -24,7 +24,7 @@ const BookTable: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen flex items-center font-semibold justify-center py-16 ">
+    <div className="min-h-screen flex  items-center font-semibold justify-center py-16 ">
       <div className="max-w-xl w-full mx-auto bg-[#ffaa36] p-8 rounded-md shadow-md">
         <h2 className="text-3xl font-bold text-center  mb-6">Boka ett bord</h2>
         <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-4">
