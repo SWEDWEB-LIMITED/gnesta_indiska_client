@@ -10,10 +10,10 @@ export default function ReceipyCard({ items, keyGenerator }: ReceipyCardProps) {
         <div key={keyGenerator()}>
           <div className="flex">
             <div className="w-[17rem]">
-              <p className="text-lg lg:text-2xl">
+              <p className="text-lg font-semibold lg:text-2xl">
                 {data.serial}. {data.name} -
               </p>
-              <p>{data.description} </p>
+              <p className="font-medium">{data.description} </p>
             </div>
             <p className="text-end text-2xl">{data.price}</p>
           </div>
