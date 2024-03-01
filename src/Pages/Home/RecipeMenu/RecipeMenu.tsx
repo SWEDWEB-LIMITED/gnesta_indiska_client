@@ -34,8 +34,8 @@ export default function RecipeMenu() {
 
   return (
     <>
-      <div className="bg-[#ffaa36] font-bold mt-[-3rem] py-[3rem] overflow-hidden">
-        <h1 className="text-4xl font-bold mb-[6rem] text-center">Menu List</h1>
+      <div className="bg-[#ffaa36] font-semibold mt-[-3rem] py-[3rem] overflow-hidden">
+        <h1 className="text-4xl font-bold mb-[6rem] text-center">Menylista</h1>
 
         <div className="grid sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-x-4 gap-y-[5rem]">
           <div className="flex flex-col gap-[5rem] items-center ">
@@ -61,15 +61,19 @@ export default function RecipeMenu() {
               {dynamicMapData(items_9)}
 
               <div className={`mt-[5rem] text-center text-xl `}>
-                <p> Stora Torget 5, 64631 Gnesta</p>
+                <p className="font-bold"> Stora Torget 5, 64631 Gnesta</p>
                 <p className="font-bold">Telefon: +46 722 44 03 00</p>
                 <p className="mt-5">Öppettider:</p>
-                <p className="font-bold">Mân-fre 11:00-21:00</p>
-                <p className="font-bold"> Lör-sön 13:00-21:00</p>
+                <p className="font-bold">
+                  Måndag-Fredag 10:30-21:00 (lunchtider 10:30-14:00)
+                </p>
+                <p className="font-bold">
+                  Helger (lördag och söndag) - 12:00-21:00
+                </p>
                 <p className=" font-bold mt-5">
                   {" "}
                   För avhämtning och beställining:- <br className="sm:block" />{" "}
-                  +46 722 44 03 00
+                  0722 44 03 00
                 </p>
               </div>
             </div>
@@ -79,15 +83,19 @@ export default function RecipeMenu() {
             {dynamicMapData(items_8)}
             {dynamicMapData(items_9)}
             <div className={`mt-[5rem] text-center text-xl `}>
-              <p> Stora Torget 5, 64631 Gnesta</p>
+              <p className="font-bold"> Stora Torget 5, 64631 Gnesta</p>
               <p className="font-bold">Telefon: +46 722 44 03 00</p>
               <p className="mt-5">Öppettider:</p>
-              <p className="font-bold">Mân-fre 11:00-21:00</p>
-              <p className="font-bold"> Lör-sön 13:00-21:00</p>
+              <p className="font-bold">
+                Måndag-Fredag 10:30-21:00 (lunchtider 10:30-14:00)
+              </p>
+              <p className="font-bold">
+                Helger (lördag och söndag) - 12:00-21:00
+              </p>
               <p className=" font-bold mt-5">
                 {" "}
                 För avhämtning och beställining:- <br className="sm:block" />{" "}
-                +46 722 44 03 00
+                0722 44 03 00
               </p>
             </div>
           </div>
