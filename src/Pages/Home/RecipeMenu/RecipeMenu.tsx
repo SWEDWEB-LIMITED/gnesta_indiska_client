@@ -34,7 +34,7 @@ export default function RecipeMenu() {
 
   return (
     <>
-      <div className="bg-[#ffaa36] font-semibold mt-[-3rem] py-[3rem] overflow-hidden">
+      <div className="bg-[#ffaa36] font-semibold  py-[3rem] overflow-hidden mt-[6rem]">
         <h1 className="text-4xl font-bold mb-[6rem] text-center">Menylista</h1>
 
         <div className="grid sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-x-4 gap-y-[5rem]">
