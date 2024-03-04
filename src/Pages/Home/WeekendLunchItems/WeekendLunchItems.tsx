@@ -201,24 +201,22 @@ export default function WeekendLunchItems() {
         },
       ],
     },
-    
-   
   ];
   return (
     <>
       <div className="mt-[8rem] w-full flex flex-col justify-center items-center">
-
-      <p className="text-3xl text-center lg:text-5xl font-bold">Dagens Lunch</p>
-        
-      <section className="w-full flex font-bold flex-col gap-[5px] text-center mt-[3rem] mb-[5rem]">
-        <p className="text-lg lg:text-xl">
-          Mån-Fre: <span className="text-red-600">Kl. 10.30 - 14.00</span>
+        <p className="text-3xl text-center lg:text-5xl font-bold">
+          Dagens Lunch
         </p>
-        <p className="text-lg lg:text-xl mt-[-5px]">
-          Ingår: Ris, Sallad, kaffe a saft
-        </p>
-      </section>
 
+        <section className="w-full flex font-bold flex-col gap-[5px] text-center mt-[3rem] mb-[5rem]">
+          <p className="text-lg lg:text-xl">
+            Mån-Fre: <span className="text-red-600">Kl. 10.30 - 14.00</span>
+          </p>
+          <p className="text-lg lg:text-xl mt-[-5px]">
+            Ingår: Ris, Sallad, kaffe a saft
+          </p>
+        </section>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6 ">
           {weekendMenuList.map((data, index) => (
@@ -226,17 +224,18 @@ export default function WeekendLunchItems() {
               <Card data={data} />
             </div>
           ))}
-<section className="w-[25rem] text-center">
-<p className="text-3xl text-center lg:text-3xl font-bold">Onsdag & Fredag</p>
-<p className="text-lg font-bold">Vindaloo (kyckling eller lamm) 125-139 kr 🌶️🌶️🌶️🌶️🌶️</p>
-<p className="text-sm">Tillagad med extra stark tomat & currysås och koriander</p>
-      
-</section>
+          <section className="w-[25rem] text-center h-fit bg-[#ffaa36] flex flex-col py-[16rem]">
+            <p className="text-3xl text-center lg:text-3xl font-bold">
+              Onsdag & Fredag
+            </p>
+            <p className="text-lg font-bold">
+              Vindaloo (kyckling eller lamm) 125-139 kr 🌶️🌶️🌶️🌶️🌶️
+            </p>
+            <p className="text-sm">
+              Tillagad med extra stark tomat & currysås och koriander
+            </p>
+          </section>
         </div>
-
-
-
-
       </div>
     </>
   );

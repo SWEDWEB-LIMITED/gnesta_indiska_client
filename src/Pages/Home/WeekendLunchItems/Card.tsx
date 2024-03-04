@@ -34,7 +34,7 @@ export default function Card({ data }: { data: any }) {
                 <p className="text-xl lg:text-2xl">{data.name}</p>
                 <p className="font-normal">{data.des}</p>
               </div>
-              <p className="text-end text-2xl">{data.price}:-</p>
+              <p className="text-end text-2xl">{data.price}</p>
             </div>
           </div>
         </div>
