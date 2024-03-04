@@ -3,6 +3,7 @@ import Category from "./Category/Category";
 import Intro from "./Intro/Intro";
 import LocationGoogleMap from "./LocationGoogleMap/LocationGoogleMap";
 import RecipeMenu from "./RecipeMenu/RecipeMenu";
+import WeekendLunchItems from "./WeekendLunchItems/WeekendLunchItems";
 
 const Home = () => {
   return (
@@ -10,7 +11,8 @@ const Home = () => {
       <Banner></Banner>
       <Intro></Intro>
       <Category></Category>
-      <RecipeMenu></RecipeMenu>
+      <RecipeMenu />
+      <WeekendLunchItems />
       <LocationGoogleMap></LocationGoogleMap>
     </div>
   );
