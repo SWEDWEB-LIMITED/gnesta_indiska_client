@@ -11,8 +11,8 @@ const Home = () => {
       <Banner></Banner>
       <Intro></Intro>
       <Category></Category>
-      <RecipeMenu />
       <WeekendLunchItems />
+      <RecipeMenu />
       <LocationGoogleMap></LocationGoogleMap>
     </div>
   );

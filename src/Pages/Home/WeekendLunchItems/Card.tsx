@@ -18,20 +18,12 @@ export default function Card({ data }: { data: any }) {
   ];
 
   return (
-    <div className="font-bold w-[25rem] flex flex-col items-center border border-gray-400 ">
+    <div className="font-bold w-[25rem] h-full flex flex-col justify-between items-center bg-[#ffaa36]">
       <p className="uppercase text-xl lg:text-2xl bg-[#FF9304] text-center w-full py-[20px] border-b-[5px] border-[#761C17]">
         {data.weekName}
       </p>
 
-      <section className="w-full flex flex-col gap-[5px] text-center my-12">
-        <p className="text-3xl lg:text-4xl">Dagens Lunch</p>
-        <p className="text-lg lg:text-xl">
-          Mån-Fre: <span className="text-red-600">Kl. 10.30 - 14.00</span>
-        </p>
-        <p className="text-lg lg:text-xl mt-[-5px]">
-          Ingår: Ris, Sallad, kaffe a saft
-        </p>
-      </section>
+      
 
       {/* map menu list */}
       {data.menuList.map((data: any, index: any) => (
@@ -71,7 +63,7 @@ export default function Card({ data }: { data: any }) {
                 <p className="">Pepsi / Coca-Cola / Sprite / Fanta</p>
                 <p>Loca Citron / Natural Vatten</p>
               </div>
-              <p className="text-end text-lg w-[4rem]">20:-</p>
+              <p className="text-end text-lg w-[4rem]">20</p>
             </div>
           </div>
         </div>
@@ -99,7 +91,7 @@ const BottomCardComponent = ({
             <p className="text-lg">{name}</p>
             <p className="font-normal text-sm">{description}</p>
           </div>
-          <p className="text-end text-lg w-[4rem]">{price}:-</p>
+          <p className="text-end text-lg w-[4rem]">{price}</p>
         </div>
       </div>
     </div>
