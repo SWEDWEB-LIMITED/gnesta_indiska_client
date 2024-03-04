@@ -201,6 +201,16 @@ export default function WeekendLunchItems() {
         },
       ],
     },
+    {
+      weekName: "Onsdag & Fredag",
+      menuList: [
+        {
+          name: "Vindaloo (kyckling eller lamm)",
+          des: "Tillagad med extra stark tomat & currysås och koriander",
+          price: "125-139 kr",
+        },
+      ],
+    },
   ];
   return (
     <>
@@ -224,17 +234,6 @@ export default function WeekendLunchItems() {
               <Card data={data} />
             </div>
           ))}
-          <section className="w-[25rem] text-center h-fit bg-[#ffaa36] flex flex-col py-[16rem]">
-            <p className="text-3xl text-center lg:text-3xl font-bold">
-              Onsdag & Fredag
-            </p>
-            <p className="text-lg font-bold">
-              Vindaloo (kyckling eller lamm) 125-139 kr 🌶️🌶️🌶️🌶️🌶️
-            </p>
-            <p className="text-sm">
-              Tillagad med extra stark tomat & currysås och koriander
-            </p>
-          </section>
         </div>
       </div>
     </>
