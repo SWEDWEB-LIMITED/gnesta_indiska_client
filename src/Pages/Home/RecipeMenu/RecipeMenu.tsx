@@ -26,7 +26,21 @@ export default function RecipeMenu() {
               {data.category}
             </p>
 
-            <ReceipyCard items={data} keyGenerator={keyGenerator} />
+            {data.category === "BANGLADESHISKT MAT" ||
+            data.category === "TYPISKA RÄTTER" ? (
+              <div className="flex justify-end gap-4 mb-4 font-normal">
+                <p>kyckling</p>
+                <p>Lamm</p>
+              </div>
+            ) : (
+              ""
+            )}
+
+            <ReceipyCard
+              category={data.category}
+              items={data}
+              keyGenerator={keyGenerator}
+            />
           </div>
         ))}
       </div>
