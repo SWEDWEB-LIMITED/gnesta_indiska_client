@@ -4,12 +4,10 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
 import Root from "./layout/Root/Root";
 import Home from "./Pages/Home/Home";
-import Dashboard from "./layout/Dashboard/Dashboard";
+
 import AboutUs from "./Pages/AboutUs/AboutUs";
-import AddMenuItem from "./Pages/Dashboard/AddMenuItem/AddMenuItem";
+
 import Menu from "./Pages/Menu/Menu";
-import ManageMenuItems from "./Pages/Dashboard/ManageMenuItems/ManageMenuItems";
-import UpdateMenuItem from "./Pages/Dashboard/UpdateMenuItem/UpdateMenuItem";
 
 import BookTable from "./Pages/BookTable/BookTable";
 
@@ -33,24 +31,6 @@ const router = createBrowserRouter([
       {
         path: "booktable",
         element: <BookTable></BookTable>,
-      },
-    ],
-  },
-  {
-    path: "/dashboard",
-    element: <Dashboard></Dashboard>,
-    children: [
-      {
-        path: "/dashboard/addMenuItems",
-        element: <AddMenuItem></AddMenuItem>,
-      },
-      {
-        path: "/dashboard/manageMenuItems",
-        element: <ManageMenuItems></ManageMenuItems>,
-      },
-      {
-        path: "/dashboard/updateMenuItem/:id",
-        element: <UpdateMenuItem></UpdateMenuItem>,
       },
     ],
   },
