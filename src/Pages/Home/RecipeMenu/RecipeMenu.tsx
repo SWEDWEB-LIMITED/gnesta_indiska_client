@@ -25,6 +25,7 @@ export default function RecipeMenu() {
             <p className="text-center text-2xl lg:text-3xl xl:text-4xl mb-10 font-bold">
               {data.category}
             </p>
+
             <ReceipyCard items={data} keyGenerator={keyGenerator} />
           </div>
         ))}

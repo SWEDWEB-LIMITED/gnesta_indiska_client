@@ -1,5 +1,6 @@
 import React, { useRef, FormEvent } from "react";
 import emailjs from "@emailjs/browser";
+import Swal from "sweetalert2";
 
 const BookTable: React.FC = () => {
   const form = useRef<HTMLFormElement>(null);
@@ -15,9 +16,13 @@ const BookTable: React.FC = () => {
         .then(
           () => {
             console.log("SUCCESS!");
+            Swal.fire("Success!", "Bord bokat framgångsrikt.", "success");
+            form.current?.reset();
           },
           (error) => {
             console.log("FAILED...", error.text);
+            Swal.fire("Error!", "En oväntad fel uppstod.", "error");
+            form.current?.reset();
           }
         );
     }
@@ -64,15 +69,15 @@ const BookTable: React.FC = () => {
           <input
             type="time"
             name="booking_time"
-            className="p-3 border border-gray-300 rounded-md focus:outline-none focus:border-[#ea062b]"
+            className="p-3 border w-full border-gray-300 rounded-md focus:outline-none focus:border-[#ea062b]"
             required
           />
 
-          <label className="text-sm ">Maträttens namn</label>
+          <label className="text-sm ">Hur många gäster </label>
           <input
             type="text"
             name="food_name"
-            className="p-3 border border-gray-300 rounded-md focus:outline-none focus:border-[#ea062b]"
+            className="p-3 border w-full border-gray-300 rounded-md focus:outline-none focus:border-[#ea062b]"
             required
           />
 
