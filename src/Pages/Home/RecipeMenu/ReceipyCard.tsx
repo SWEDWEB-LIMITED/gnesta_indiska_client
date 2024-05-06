@@ -13,14 +13,15 @@ export default function ReceipyCard({
       {items.items.map((data: ReceipyCardType) => (
         <div key={keyGenerator()}>
           <div className="flex">
-            <div className="w-[19rem]">
+            <div className="w-[16rem]">
               <p className="sm:text-lg font-semibold lg:text-xl">
                 {data.serial}. {data.name} -
               </p>
               <p className="font-medium">{data.description} </p>
             </div>
 
-            {category === "BANGLADESHISKT MAT" || category === "TYPISKA RÄTTER" ? (
+            {category === "BANGLADESHISKT MAT" ||
+            category === "TYPISKA RÄTTER" ? (
               <div className="grid grid-cols-2 gap-6 place-items-end place-content-start  w-[7rem]">
                 <p>{data.specialPrice}</p>
                 <p>{data.extraSpecialPrice}</p>

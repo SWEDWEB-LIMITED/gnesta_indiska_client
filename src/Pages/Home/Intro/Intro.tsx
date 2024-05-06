@@ -1,12 +1,19 @@
 import { FaPhone } from "react-icons/fa";
+import GnestaIndiska from "../../../assets/GnestaIndiska.jpeg";
 
 const Intro = () => {
   const handleCallForOrder = () => {
-    window.location.href = "tel:+46722440300";
+    window.location.href = "tel:+460722440300";
   };
 
   return (
-    <div className="bg-[#222] text-white min-h-screen flex flex-col justify-center items-center">
+    <div
+      className="bg-[#222] text-white min-h-screen flex flex-col justify-center items-center"
+      style={{
+        backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(${GnestaIndiska})`,
+        backgroundPosition: "center",
+      }}
+    >
       <div className="text-center max-w-2xl mx-auto">
         <h1 className="lg:text-6xl text-4xl font-bold text-[#ffaa36] mb-4">
           Välkommen till Gnesta Indiska

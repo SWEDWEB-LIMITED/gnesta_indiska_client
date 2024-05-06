@@ -25,7 +25,10 @@ export default function Card({ data }: { data: any }) {
 
       {/* map menu list */}
       {data.menuList.map((data: any, index: any) => (
-        <div className="flex w-full items-center flex-col gap-y-6 my-12" key={index}>
+        <div
+          className="flex w-full items-center flex-col gap-y-6 my-12"
+          key={index}
+        >
           <div className="flex w-full justify-center px-[3rem]">
             <div className="w-[17rem]">
               <p className="text-xl lg:text-2xl">{data.name}</p>

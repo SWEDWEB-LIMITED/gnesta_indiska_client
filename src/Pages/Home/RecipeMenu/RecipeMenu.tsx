@@ -49,7 +49,7 @@ export default function RecipeMenu() {
 
   return (
     <>
-      <div className="bg-[#ffaa36] font-semibold  py-[3rem] overflow-hidden mt-[6rem]">
+      <div className="bg-[#ffaa36] font-semibold  py-[3rem] overflow-hidden mt-[6rem] ">
         <h1 className="text-4xl font-bold mb-[6rem] text-center">Menylista</h1>
 
         <div className="grid sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-x-4 gap-y-[5rem]">
@@ -94,7 +94,7 @@ export default function RecipeMenu() {
             </div>
           </div>
 
-          <div className="hidden sm:hidden md:flex xl:hidden md:mt-[-9rem] flex-col gap-[5rem] items-center ">
+          <div className="hidden sm:hidden md:flex xl:hidden  flex-col gap-[5rem] items-center ">
             {dynamicMapData(items_8)}
             {dynamicMapData(items_9)}
             <div className={`mt-[5rem] text-center text-xl `}>
